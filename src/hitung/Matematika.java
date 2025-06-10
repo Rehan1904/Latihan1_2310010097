@@ -2,7 +2,7 @@ package hitung;
 
 public class Matematika {
     // Variabel bilangan
-    double bil1, bil2;
+    private double bil1, bil2;
 
     // Constructor untuk mengisi nilai bil1 dan bil2
     public Matematika(double bil1, double bil2) {
@@ -13,7 +13,7 @@ public class Matematika {
     // Method penjumlahan
     public double setPenjumlahan() {
         return bil1 + bil2;
-    }
+    }   
 
     // Method pengurangan
     public double setPengurangan() {
